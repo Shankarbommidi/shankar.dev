@@ -358,7 +358,15 @@ main {
   width: max-content;
   padding: 3px 12px;
   border-radius: 8px;
+  border: 1px solid grey;
+  transition: color, background-color 300ms ease-in-out;
 }
+
+.info-content .title:hover{
+  color: var(--bg-gradient-yellow-1);
+  background-color: hsl(45, 100%, 72%);
+}
+
 
 .info_more-btn {
   position: absolute;
